@@ -1,0 +1,6 @@
+extends layout
+
+block container
+  h2= "Video: " + video.get('title')
+  video(width=650, controls)
+    source(src=video.video_path())
