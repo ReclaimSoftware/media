@@ -9,7 +9,7 @@
 
 ### Developing
 
-Assuming "$DIR/media/foo.webm", create `db/seeds.coffee` with:
+Assuming `$DIR/media/foo.webm`, create `db/seeds.coffee` with:
 
 ```coffee
 module.exports = {
